@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: customer-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/youtube
+    driver: org.postgresql.Driver
+    username: postgres
+    password: holy@1234
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
