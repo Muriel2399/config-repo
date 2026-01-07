@@ -1,0 +1,15 @@
+global:
+  message: Welcome to customer service dev environment!!
+server:
+  port: 9091
+message: Hello from Dev!
+spring:
+  datasource: 
+    url: jdbc:postgresql://localhost:5432/cust_dev
+    username: postgres
+    password: holy@1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
